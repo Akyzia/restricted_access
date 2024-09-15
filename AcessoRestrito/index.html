@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acesso</title>
+         <!-- Aqui eu puxo o link do estilo .css -->
+        <link rel="stylesheet" href="css/EstiloAcesso.css">
+<body>
+       <!-- deixar comentado  /*<h2>ACESSO RESTRITO</h2>-->
+        <form id="loginForm">
+            <label for="fname">Usuário:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Senha:</label><br>
+            <input type="password" id="lname" name="lname">
+        </form>
+        
+        <button type="button" onclick="acessarPagina()">Acessar</button>
+        <p id="error-message" style="color: red;"></p>
+        
+<!--colocar o link de acesso a página que deseja acessar na funcao javascript-->
+        <script> src="javascript/function.js" </script>
+        
+</body>
+</html>
